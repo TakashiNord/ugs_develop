@@ -1,0 +1,98 @@
+! Menuitem for users
+!  12.31.01
+! Freeware - предполагает исходные тексты, но не всегда
+! Shareware - предполагает плату денег
+! Corporative version
+!      - значит все что вы создаете это ваше и вашего работодателя,
+!        если в трудовом не оговорено иначе
+
+TITLE Cam_OPU_(x32)
+
+VERSION 160
+
+BUTTON  QUICK_FILL_ATTR2
+LABEL   Создание описания для программы (атрибут DESCR - создание операционных карт)
+ACTION  $UGII_VENDOR_DIR\application\opu_quick_fill_descr_attr.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_quick_fill_descr_attr.bmp
+
+BUTTON  OPU_VericutTool
+LABEL   Импорт инструмента в Vericut
+ACTION  $UGII_VENDOR_DIR\application\opu_tools_vericut.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_tools_vericut.bmp
+
+BUTTON  OPU_MachineTool
+LABEL   Установка Номеров Инструмента
+ACTION  $UGII_VENDOR_DIR\application\opu_tools_fix.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_tools_fix.bmp
+
+BUTTON  ParamOper
+LABEL   Манипуляция атрибутами - программ и операций.
+ACTION  $UGII_VENDOR_DIR\application\opu_param_oper.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_param_oper.bmp
+
+BUTTON  ParamDel
+LABEL   Удалить атрибуты из операций или программ
+ACTION  $UGII_VENDOR_DIR\application\opu_param_del_program.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_param_del_program.bmp
+
+BUTTON  Drf1
+LABEL   Изменение ассоциативного размера на чертеже
+ACTION  $UGII_VENDOR_DIR\application\opu_drf1.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_drf1.bmp
+
+BUTTON  Cam0
+LABEL   Редактировать Опции отображения
+ACTION  $UGII_VENDOR_DIR\application\opu_disp.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_display_options.bmp
+
+BUTTON  Cam5
+LABEL   Изменение скорости шпинделя в операциях.
+ACTION  $UGII_VENDOR_DIR\application\opu_cam5.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_cam5_speeds.bmp
+
+BUTTON  Cam3
+LABEL   Изменяет параметры торможения в углах - для операции
+ACTION  $UGII_VENDOR_DIR\application\opu_cam3_dlg.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_cam3.bmp
+
+BUTTON  Cam4
+LABEL   Установка параметров для угловой головки в операции
+ACTION  $UGII_VENDOR_DIR\application\opu_cam4.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_cam4.bmp
+
+BUTTON  Cam7
+LABEL   Изменение 'Родительской Геометрии' для операций
+ACTION  $UGII_VENDOR_DIR\application\opu_cam7_dlg.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_cam7.bmp
+
+BUTTON  Cam8
+LABEL   Изменение 'Попутного-Встречного' резания - для операций
+ACTION  $UGII_VENDOR_DIR\application\opu_cam8.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_cam8.bmp
+
+BUTTON  Cam9
+LABEL   Инициализация параметров операций из другой операции
+ACTION  $UGII_VENDOR_DIR\application\opu_copy_param.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_copy_param.bmp
+
+BUTTON  Cam10
+LABEL   Назначение имени части в типовых деталях для постпроцессора
+ACTION  $UGII_VENDOR_DIR\application\opu_cam10_list_comp.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_cam10_list_comp.bmp
+
+BUTTON  Cam11
+LABEL   Создание операций для шлифовки (HAUSER S45)
+ACTION  $UGII_VENDOR_DIR\application\opu_hauser.grx
+BITMAP  $UGII_VENDOR_DIR\application\opu_hauser1.bmp
+
+BUTTON  Cam12
+LABEL   User Defined операторы для шлифовки (HAUSER S45)
+ACTION  $UGII_VENDOR_DIR\application\opu_hauser2.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_hauser2.bmp
+
+BUTTON  opu_kinematics
+LABEL   Кинематическая схема станков
+ACTION  $UGII_VENDOR_DIR\application\opu_kinematics.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_kinematics.bmp
+
+!================================================================

@@ -1,0 +1,78 @@
+! Menuitem for users
+!  12.31.01
+! Freeware - предполагает исходные тексты, но не всегда
+! Shareware - предполагает плату денег
+! Corporative version
+!      - значит все что вы создаете это ваше и вашего работодателя,
+!        если в трудовом не оговорено иначе
+
+TITLE Cam
+
+VERSION 160
+
+BUTTON 	opu_kinematics1
+LABEL   Кинематическая схема станков
+ACTION	$UGII_VENDOR_DIR\application\opu_kinematics1.dll
+BITMAP 	$UGII_VENDOR_DIR\application\opu_kinematics1.bmp
+
+BUTTON 	OPU_IPAC_FPDF
+LABEL   Составление FPDF-файла для клепального автомата
+ACTION	$UGII_VENDOR_DIR\application\opu_process_ipac.dll
+BITMAP 	$UGII_VENDOR_DIR\application\opu_ipac1.bmp
+
+BUTTON  ufx_cycle
+LABEL   ufx cycle
+ACTION	$UGII_VENDOR_DIR\application\ufx_cycle.dll
+BITMAP  $UGII_VENDOR_DIR\application\ufx_cycle.bmp
+
+BUTTON 	libmain
+LABEL   Библиотека инструмента и режимов резания
+ACTION	$UGII_VENDOR_DIR\application\libmain.dll
+BITMAP 	$UGII_VENDOR_DIR\application\libmain.bmp
+
+BUTTON 	Vericut
+LABEL   Расчет углов для установки в Vericut (тест)
+ACTION	$UGII_VENDOR_DIR\application\msys_vericut.dll
+BITMAP 	$UGII_VENDOR_DIR\application\msys_vericut.bmp
+
+BUTTON  Cam13
+LABEL   Depth Of Cut Parameters
+ACTION  $UGII_VENDOR_DIR\application\opu_cut_depths.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_cut_depths.bmp
+
+BUTTON  Cam15
+LABEL   Cut Parameters ( Stock )
+ACTION  $UGII_VENDOR_DIR\application\opu_cut_param.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_cut_param.bmp
+
+BUTTON  Cam16
+LABEL   Non-cutting Moves ( From-Gohome )
+ACTION  $UGII_VENDOR_DIR\application\opu_non_cutting_moves.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_non_cutting_moves.bmp
+
+BUTTON  Cam14
+LABEL   Оценка Времени УП
+ACTION  $UGII_VENDOR_DIR\application\opu_time.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_time.bmp
+
+BUTTON  PP_CREATE_OWN
+LABEL   Составление собственного списка постпроцессоров.
+ACTION  $UGII_VENDOR_DIR\application\pp_create_own_list.dll
+BITMAP  $UGII_VENDOR_DIR\application\pp_create_own_list.bmp
+
+BUTTON 	PP_POST
+LABEL   Пост Процесс.
+ACTION	$UGII_VENDOR_DIR\application\pp_post_main.dll
+BITMAP 	$UGII_VENDOR_DIR\application\pp_post.bmp
+
+BUTTON 	opu_param
+LABEL   Параметры операции
+ACTION	$UGII_VENDOR_DIR\application\opu_parameters.dll
+BITMAP 	$UGII_VENDOR_DIR\application\opu_parameters.bmp
+
+BUTTON  create_optimal
+LABEL   Создание оптимальной заготовки
+ACTION  $UGII_VENDOR_DIR\application\Create_block_optimal_value.dll
+BITMAP  $UGII_VENDOR_DIR\application\Create_block_optimal_value.bmp
+
+!-------------------------------------------------------------
